@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes,">
+<title>人生を十六進数で</title>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.1.0/moment.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<link type="text/css" rel="stylesheet" href="css/main.css"></link>
+</head>
+<body>
+<h1>生まれてからの日数を符号付十六進数で表示します</h1>
+
+Twitterを眺めていたらおぉっ、と思うツイートがあったので作ってみました。<br>
+人生80年といっても、たかだか2バイト、4文字なのか……
+
+<hr>
+
+<div id="input">
+生年月日を指定してください<br>
+<select id="year"></select>年
+<select id="month"></select>月
+<select id="day"></select>日
+</div>
+<div>
+<textarea id="result">
+</textarea>
+</div>
+<strong>注意：この情報を公開すると年齢・生年月日がバレます。</strong>
+
+<hr>
+元ネタはこちら：
+<blockquote class="twitter-tweet"><p>「人生はたかだか16ビット日、すなわち2^16=32768日である」（結城浩）</p>&mdash; 結城浩 (@hyuki) <a href="https://twitter.com/hyuki/statuses/367230878490963968">August 13, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</body>
+</html>
+

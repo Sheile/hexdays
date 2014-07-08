@@ -1,0 +1,16 @@
+h1 {
+  font-size: large;
+  border-left: solid 12px #333366;
+  border-bottom: solid 1px #333366;
+  padding: 4px;
+}
+
+hr {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+textarea#result {
+  width: 320px;
+  height: 64px;
+  max-width: 95%;
+}
